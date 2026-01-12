@@ -1,0 +1,38 @@
+# Binaries (root level only)
+/bedrock-bench
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Go workspace file
+go.work
+
+# Config files with sensitive data (keep only example)
+config.json
+config.*.json
+!config.example.json
+
+# Generated reports
+*_report.md
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude/AI assistant configs
+.claude/
